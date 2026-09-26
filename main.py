@@ -51,3 +51,24 @@
 # students.remove("Rahul")
 # print(students)
 # print(students[1:2])
+
+# # List Comprehension 
+# numbers = [1, 2, 3, 4, 5] 
+# squares = [n * n for n in numbers] 
+# print( type(squares)) 
+# x=("satyam")
+# print(type(x))
+
+
+# Tuple unpacking
+
+# student = ("Yatin", 22, "B.Sc")
+# name , age , course = student
+# print(name,age,course)
+
+# count()
+# Kisi value ko kitni baar repeat kiya hai:
+
+# numbers = (10, 20, 10, 30, 10)
+# print(numbers.count(10))
+# print(numbers.index(30))
